@@ -178,7 +178,7 @@ class Builder
      */
     public $operators = [
         '=', '<', '>', '<=', '>=', '<>', '!=', '<=>',
-        'like', 'like binary', 'not like', 'ilike',
+        'like', 'like binary', 'not like', 'ilike', 'between',
         '&', '|', '^', '<<', '>>',
         'rlike', 'regexp', 'not regexp',
         '~', '~*', '!~', '!~*', 'similar to',
